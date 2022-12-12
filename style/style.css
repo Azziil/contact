@@ -76,6 +76,18 @@ h1, h2, h3, h4, h5, h6, p {
     width: 571px;
     border: 1px solid rgba(189, 189, 189, 1);
 }
+.message-form {
+    padding-left: 30px;
+}
+.line-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 571px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    margin-top: 136px;
+}
 input {
     height: 38px;
     width: 370px;
@@ -87,6 +99,9 @@ font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: left;
+}
+.form-input {
+    display: flex;
 }
 
 
@@ -103,5 +118,5 @@ button {
     background: rgba(236, 121, 121, 1);
     border: none;
     color:  rgba(255, 255, 255, 1);
-    ;
+    
 }
